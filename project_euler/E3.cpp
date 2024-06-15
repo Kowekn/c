@@ -26,7 +26,7 @@ for(long long int i=3; i<n; i+=2){          //depois de algum tempo i se torna n
             continue;
         }
         resultado= i;
-        printf("%d, ", resultado);
+        printf("%d, ", resultado);    //a ideia é que ao passar do tempo ele coloca primos em que n é divisivel e em algum momento será o maior divisivel
         continue;
     }
 }
